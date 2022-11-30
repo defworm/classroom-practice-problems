@@ -22,6 +22,8 @@
 //
 // Input:
 // The function will be given two parameters. Each parameter will be a string separated by a single space. Each string will contain the count of each race on the side of good and evil.
+
+const good = [""]
 //
 // The first parameter will contain the count of each race on the side of good in the following order:
 //
