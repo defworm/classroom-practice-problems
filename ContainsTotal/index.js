@@ -10,8 +10,23 @@
 // containsTotal([1,2,1], 2) => true (1 + 1 = 2)
 
 const containsTotal = (numArr, target) => {
-  return null
+  for (let i = 0; i < numArr.length; i++) {
+    for (let j = 1; j < numArr.length; j++) {
+      // console.log ("Dem Numbers => ", numArr[i], numArr[j])
+      if (i !== j) {
+
+      
+      if (numArr[i] + numArr[j] === target) {
+        return true
+      }
+    }
+    }
+
+  }
+
+  return false
 };
 
+containsTotal([1, 2, 3], 5)
 
 module.exports = containsTotal;
